@@ -15,28 +15,3 @@
   ]
 
 }
-
----
-
-
-
-### Package Configuration (package.json)
-
-{
-
-  "name": "telegram-bot",
-
-  "version": "1.0.0",
-
-  "main": "api/bot.js",
-
-  "scripts": {
-
-    "start": "vercel dev",
-
-    "deploy": "vercel --prod"
-
-  },
-
-  "dependencies": {
-
